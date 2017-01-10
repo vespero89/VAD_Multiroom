@@ -1,0 +1,19 @@
+THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python CNN_Keras_v1_2.py --
+SCOND 0  --
+frame_context 15 --
+N_classes 4 --
+nrConvPoolLayers 2 --
+ConvPoolKern 8,16 --
+ConvKernSizes 3,3,3,3 --
+PoolKernSizes 2,2,1,1 --
+nrHiddenNodesLayers 2 --
+HiddenNodesSizes 100,200 --
+learn_rate_FT 0.0025 --
+BatchSize 50 --
+maxEpochs 25 --
+ES_epochs 10 --
+train_file 1_A_TRAIN.nc --
+test_file 1_A_TEST.nc --
+val_file 1_A_VAL.nc --
+out_file 1_A_TEST.csv --
+trained_network_weights 1_trained_network_A_CNN.hdf5
