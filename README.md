@@ -2,9 +2,6 @@
 
 VAD Multiroom Matlab Scripts
 
-Requirements:
+Requires Keras Library and Theano as backend.
 
-Theano
-
-Keras
-
+Dataset was provided by: http://www.evalita.it/2014/tasks/saslodom
