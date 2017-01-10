@@ -5,5 +5,6 @@ VAD Multiroom Matlab Scripts
 Requirements:
 
 Theano
+
 Keras
 
